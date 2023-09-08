@@ -12,7 +12,9 @@ module.exports = {
 
         primary: "#4D84F8",
         footer: "#30373F",
-        linkdefault: "#7D8494"
+        linkdefault: "#7D8494",
+        bgPrimary: "#FBFBFD",
+        blackText: "#12191F"
 
       },
       backgroundImage: {
