@@ -13,7 +13,7 @@ const Header = () => {
                     <Link href="/Reviews">Reviews</Link>
                     <Link href="/Blog">Blog</Link>
                 </div>
-                <Link href="#" className='border text-primary border-primary font-semibold text-xl px-4 py-2 rounded-lg hover:text-white hover:bg-primary duration-500'>Let's talk</Link>
+                <Link href="#" className='border text-primary border-primary font-semibold text-xl px-4 py-2 rounded-lg hover:text-white hover:bg-primary duration-500'>Let&apos;s talk</Link>
 
             </nav>
         </>
