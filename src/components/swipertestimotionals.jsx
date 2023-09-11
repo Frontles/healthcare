@@ -73,7 +73,7 @@ const SwiperTestiMotionals = () => {
                             <div className="flex flex-col items-center bg-white lg:max-w-prose  rounded-lg shadow md:flex-row hover:bg-gray-100 mb-10">
                                 <Image width={0} height={0} sizes='100vw' alt="image" className='object-contain w-auto rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg' src={p} />
                                 <div class="flex flex-col justify-between p-4 leading-normal">
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">"Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."</p>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
 
                                     <h5 class="mb-2  font-medium tracking-tight text-blackText">Aiyana Smith, {index}</h5>
                                 </div>
