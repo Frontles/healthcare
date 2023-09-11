@@ -6,38 +6,38 @@ import Image from 'next/image';
 
 const Faq = () => {
     return (
-        <section className=' pb-10'>
+        <section className=' pb-10 px-4'>
 
-            <div className='container flex gap-4' >
+            <div className='container flex flex-col md:flex-row gap-4' >
 
 
                 <div className='basis-2/5 flex flex-col w-full'>
 
                     <Accordion variant="separated" radius="md" defaultValue="1">
                         <Accordion.Item value="1" className='p-4'>
-                            <Accordion.Control className='text-2xl font-semibold'>What services do you offer  ?</Accordion.Control>
-                            <Accordion.Panel className='text-xl text-linkdefault border-t duration-500 '>
+                            <Accordion.Control className='text-lg md:text-2xl font-semibold'>What services do you offer  ?</Accordion.Control>
+                            <Accordion.Panel className='text-sm md:text-xl text-linkdefault border-t duration-500 '>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae neque aliquam veritatis nulla ipsam dolores similique eum voluptates doloribus atque.
                             </Accordion.Panel>
                         </Accordion.Item>
 
                         <Accordion.Item value="2" className='p-4'>
-                            <Accordion.Control className='text-2xl font-semibold'>How Can I book  an appointment ?</Accordion.Control>
-                            <Accordion.Panel className='text-xl text-linkdefault border-t duration-500 '>
+                            <Accordion.Control className='text-lg md:text-2xl font-semibold'>How Can I book  an appointment ?</Accordion.Control>
+                            <Accordion.Panel className='text-sm md:text-xl text-linkdefault border-t duration-500 '>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae neque aliquam veritatis nulla ipsam dolores similique eum voluptates doloribus atque.
                             </Accordion.Panel>
                         </Accordion.Item>
 
                         <Accordion.Item value="3" className='p-4'>
-                            <Accordion.Control className='text-2xl font-semibold'>What insurance plans do you accept? </Accordion.Control>
-                            <Accordion.Panel className='text-xl text-linkdefault border-t duration-500 '>
+                            <Accordion.Control className='text-lg md:text-2xl font-semibold'>What insurance plans do you accept? </Accordion.Control>
+                            <Accordion.Panel className='text-sm md:text-xl text-linkdefault border-t duration-500 '>
 
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae neque aliquam veritatis nulla ipsam dolores similique eum voluptates doloribus atque.
                             </Accordion.Panel>
                         </Accordion.Item>
                         <Accordion.Item value="4" className='p-4'>
-                            <Accordion.Control className='text-2xl font-semibold'>How do I access my medical records ? </Accordion.Control>
-                            <Accordion.Panel className='text-xl text-linkdefault border-t duration-500 '>
+                            <Accordion.Control className='text-lg md:text-2xl font-semibold'>How do I access my medical records ? </Accordion.Control>
+                            <Accordion.Panel className='text-sm md:text-xl text-linkdefault border-t duration-500 '>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae neque aliquam veritatis nulla ipsam dolores similique eum voluptates doloribus atque.
                             </Accordion.Panel>
                         </Accordion.Item>

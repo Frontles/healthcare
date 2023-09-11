@@ -10,27 +10,27 @@ import Image from 'next/image'
 const Footer = () => {
     return (
         <div className='bg-bgPrimary'>
-            <div className='container'>
-                <div className='flex py-4  items-center justify-start space-x-8 flex-nowrap'>
+            <div className='container px-4 md:px-0'>
+                <div className='flex py-4  items-center justify-start md:space-x-8 space-y-4  flex-wrap flex-col md:flex-row md:flex-nowrap'>
                     <div className='basis-1/12'>
                         <Image src={Image1.src} width={0} height={0} sizes='100vw' alt="image" className='aspect-square  object-cover   rounded-xl' />
 
                     </div>
-                    <div className='flex flex-col basis-8/12'>
-                        <h1 className='text-3xl text-blackText font-semibold'>Bringing smiles back to health</h1>
-                        <p className='text-xl text-linkdefault'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum saepe explicabo nulla dignissimos sunt, veniam ex deserunt beatae itaque vel.</p>
+                    <div className='flex flex-col basis-8/12 space-y-4'>
+                        <h1 className='text-2xl md:text-3xl text-blackText font-semibold'>Bringing smiles back to health</h1>
+                        <p className='text-lg md:text-xl text-linkdefault'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum saepe explicabo nulla dignissimos sunt, veniam ex deserunt beatae itaque vel.</p>
 
                     </div>
-                    <button className='bg-primary text-white text-lg px-6 py-3 rounded-lg'>Book A Consultation</button>
+                    <button className='bg-primary text-white text-sm md:text-lg px-6 py-3 rounded-lg'>Book A Consultation</button>
 
                 </div>
             </div>
             <div className='bg-footer text-white'>
-                <div className="container">
-                    <div className='flex  justify-between py-8 border-b border-white '>
+                <div className="container px-4 md:px-0">
+                    <div className='flex flex-col md:flex-row space-y-16 md:space-y-0   justify-between py-8 border-b border-white '>
                         <div className='flex flex-col basis-2/5'>
                             <Link className=' text-3xl font-bold ' href="/">We<span className='text-primary'>Care</span></Link>
-                            <p className='text-2xl py-4 font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse delectus adipisci libero odit laudantium</p>
+                            <p className='text-2xl py-4 font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit.  esse delectus adipisci libero odit laudantium</p>
                             <div className='relative flex items-center justify-center'>
                                 <BsFillSendFill className='absolute right-5 z-20 text-linkdefault ' size="20px" />
                                 <input type="text" name="" id="" className='p-4 rounded-xl w-full focus:outline-none text-blackText' placeholder='Email Address' />
@@ -46,7 +46,7 @@ const Footer = () => {
 
                         </div>
 
-                        <div className='flex  basis-3/4  justify-center space-x-16'>
+                        <div className='flex flex-col md:flex-row  basis-3/4 space-y-8 md:space-y-0  justify-center md:space-x-16'>
                             <div className='flex flex-col'>
                                 <h3 className=' text-3xl font-semibold ' href="/">Explore</h3>
                                 <ul className='flex flex-col'>
