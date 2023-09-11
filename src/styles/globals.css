@@ -15,3 +15,10 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.doctor-slider-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
