@@ -21,7 +21,11 @@ const photos = [
     Image1.src,
     Image2.src,
     Image1.src,
-    Image2.src
+    Image2.src,
+    Image2.src,
+    Image2.src,
+    Image2.src,
+    Image2.src,
 ];
 
 export default function SwiperDoctor() {
