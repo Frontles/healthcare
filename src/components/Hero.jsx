@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsArrowUpRight } from 'react-icons/bs';
 import Image1 from '@/../../public/assets/img/image1.jpg'
+import Image from 'next/image';
 
 const Hero = () => {
     return (
@@ -28,7 +29,7 @@ const Hero = () => {
                         <div className=' bg-black opacity-30 w-full h-full absolute rounded-3xl'>
                         </div>
 
-                        <img src={Image1.src} className=' w-full h-full object-cover aspect-video rounded-3xl ' />
+                        <Image width={0} height={0} sizes='100vw' alt="image" src={Image1.src} className=' w-full h-full object-cover aspect-video rounded-3xl ' />
                         <p className='absolute top-4 left-4 shadow-lg px-4 py-2 bg-white rounded-lg text-linkdefault'>Feature</p>
                         <h3 className='absolute bottom-4 left-4 px-4 py-2  rounded-lg text-white font-medium tracking-wide text-4xl'>Telehealth <br /> consultation</h3>
                         <p className='absolute bottom-4 right-4  p-4 bg-transparent rounded-full text-white border-2 border-white'><BsArrowUpRight fontSize={"30px"} /></p>
@@ -38,7 +39,7 @@ const Hero = () => {
                     <div className=' grid-cols-2  flex items-center space-x-4'>
                         <div className="col-span-1">
                             <div className=' relative aspect-square  items-start'>
-                                <img src={Image1.src} className=' w-full h-full object-cover aspect-video rounded-3xl ' />
+                                <Image width={0} height={0} sizes='100vw' alt="image" src={Image1.src} className=' w-full h-full object-cover aspect-video rounded-3xl ' />
                             </div>
 
 
@@ -46,7 +47,7 @@ const Hero = () => {
 
                         <div className='col-span-1 '>
                             <div className=' relative aspect-square  items-start'>
-                                <img src={Image1.src} className=' w-full h-full object-cover aspect-video rounded-3xl  ' />
+                                <Image width={0} height={0} sizes='100vw' alt="image" src={Image1.src} className=' w-full h-full object-cover aspect-video rounded-3xl  ' />
                                 <p className='absolute bottom-4 right-4  p-4 bg-transparent rounded-full text-white border-2 border-white'><BsArrowUpRight fontSize={"30px"} /></p>
                             </div>
                         </div>

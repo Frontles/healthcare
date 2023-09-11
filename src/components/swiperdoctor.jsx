@@ -14,6 +14,7 @@ import 'swiper/css/mousewheel';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-fade';
 import 'swiper/css/grid';
+import Image from 'next/image';
 
 
 const photos = [
@@ -65,7 +66,7 @@ export default function SwiperDoctor() {
                                 <div className=' bg-black duration-500 hidden group-hover:block opacity-30 w-full h-full absolute rounded-xl'>
                                 </div>
 
-                                <img className="rounded-xl " src={p} alt="" />
+                                <Image width={0} height={0} sizes='100vw' alt="image" className="rounded-xl " src={p} />
 
 
 

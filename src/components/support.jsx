@@ -3,6 +3,7 @@ import Image2 from '@/../../public/assets/img/image2.jpg'
 import { FcOnlineSupport } from 'react-icons/fc'
 import { FaCertificate } from 'react-icons/fa'
 import { TiTick } from 'react-icons/ti'
+import Image from 'next/image'
 
 
 const Support = () => {
@@ -10,7 +11,7 @@ const Support = () => {
         <section className='bg-bgPrimary py-20'>
             <div className="container flex justify-between">
                 <div className='w-full h-full rounded-xl basis-1/2 relative'>
-                    <img src={Image2.src} className='bg-contain rounded-xl' />
+                    <Image width={0} height={0} sizes='100vw' alt="image" src={Image2.src} className='bg-contain rounded-xl' />
                     <div className=' bg-white shadow-lg flex absolute rounded-xl -top-10 left-10 items-center space-x-2 p-4'>
 
                         <FcOnlineSupport className='text-3xl' />

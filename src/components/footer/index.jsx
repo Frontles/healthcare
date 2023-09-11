@@ -6,13 +6,14 @@ import { BsInstagram } from 'react-icons/bs'
 import { BsTwitter } from 'react-icons/bs'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsFillSendFill } from 'react-icons/bs'
+import Image from 'next/image'
 const Footer = () => {
     return (
         <div className='bg-bgPrimary'>
             <div className='container'>
                 <div className='flex py-4  items-center justify-start space-x-8 flex-nowrap'>
                     <div className='basis-1/12'>
-                        <img src={Image1.src} alt="" className='aspect-square  object-cover   rounded-xl' />
+                        <Image src={Image1.src} width={0} height={0} sizes='100vw' alt="image" className='aspect-square  object-cover   rounded-xl' />
 
                     </div>
                     <div className='flex flex-col basis-8/12'>

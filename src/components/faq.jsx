@@ -2,6 +2,7 @@ import React from 'react'
 import { BsArrowUpRight } from 'react-icons/bs';
 import Image1 from '@/../../public/assets/img/image2.jpg'
 import { Accordion } from '@mantine/core';
+import Image from 'next/image';
 
 const Faq = () => {
     return (
@@ -52,7 +53,7 @@ const Faq = () => {
                         <div className=' bg-black opacity-30 w-full h-full absolute rounded-3xl'>
                         </div>
 
-                        <img src={Image1.src} className='w-full h-full object-cover  rounded-3xl ' />
+                        <Image width={0} height={0} sizes='100vw' alt="image" src={Image1.src} className='w-full h-full object-cover  rounded-3xl ' />
                     </div>
                     <div className=' grid-rows-2 flex flex-col gap-4'>
 
@@ -60,7 +61,7 @@ const Faq = () => {
                             <div className=' relative   items-start'>
                                 <div className=' bg-black opacity-30 w-full h-full absolute rounded-3xl'>
                                 </div>
-                                <img src={Image1.src} className=' w-full h-full object-cover  rounded-3xl ' />
+                                <Image width={0} height={0} sizes='100vw' alt="image" src={Image1.src} className=' w-full h-full object-cover  rounded-3xl ' />
                             </div>
                         </div>
 
@@ -68,7 +69,7 @@ const Faq = () => {
                             <div className=' relative   items-start'>
                                 <div className=' bg-black opacity-30 w-full h-full absolute rounded-3xl'>
                                 </div>
-                                <img src={Image1.src} className=' w-full h-full object-cover  rounded-3xl ' />
+                                <Image width={0} height={0} sizes='100vw' alt="image" src={Image1.src} className=' w-full h-full object-cover  rounded-3xl ' />
                             </div>
                         </div>
 
