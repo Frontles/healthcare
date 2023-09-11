@@ -21,6 +21,9 @@ img {
   height: 100%;
   object-fit: cover;
 }
+body {
+  zoom: 0.9;
+}
 
 .doctor-slider-pagination {
   display: flex;
