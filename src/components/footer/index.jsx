@@ -21,7 +21,7 @@ const Footer = () => {
                         <p className='text-lg md:text-xl text-linkdefault'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum saepe explicabo nulla dignissimos sunt, veniam ex deserunt beatae itaque vel.</p>
 
                     </div>
-                    <button className='bg-primary text-white text-sm md:text-lg px-6 py-3 rounded-lg'>Book A Consultation</button>
+                    <button className='bg-primary text-white text-sm md:text-lg px-6 py-3 rounded-lg duration-300 hover:bg-white hover:text-primary border border-primary'>Book A Consultation</button>
 
                 </div>
             </div>

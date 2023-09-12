@@ -9,10 +9,10 @@ const Header = () => {
                 <div className=' hidden md:flex md:space-x-8 items-center justify-center'>
                     <div className='  md:space-x-8 lg:space-x-16 font-semibold text-linkdefault text-xl'>
                         <Link className="text-primary" href="/home">Home</Link>
-                        <Link href="/services">Services</Link>
-                        <Link href="/About">About</Link>
-                        <Link href="/Reviews">Reviews</Link>
-                        <Link href="/Blog">Blog</Link>
+                        <Link href="/services" className='hover:text-primary duration-300'>Services</Link>
+                        <Link href="/About" className='hover:text-primary duration-300'>About</Link>
+                        <Link href="/Reviews" className='hover:text-primary duration-300'>Reviews</Link>
+                        <Link href="/Blog" className='hover:text-primary duration-300'>Blog</Link>
                     </div>
                     <Link href="#" className='border text-primary border-primary font-semibold text-xl px-4 py-2 rounded-lg hover:text-white hover:bg-primary duration-500'>Let&apos;s talk</Link>
                 </div>

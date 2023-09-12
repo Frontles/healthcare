@@ -67,7 +67,7 @@ export default function SwiperDoctor() {
                     return (
                         <SwiperSlide key={index}>
                             <div className="relative  rounded-xl shadow group  duration-500 mb-10 ">
-                                <div className=' bg-black duration-500 hidden group-hover:block opacity-30 w-full h-full absolute rounded-xl'>
+                                <div className=' bg-black  hidden group-hover:block opacity-30 w-full h-full absolute rounded-xl '>
                                 </div>
 
                                 <Image width={0} height={0} sizes='100vw' alt="image" className="rounded-xl " src={p} />
@@ -76,7 +76,7 @@ export default function SwiperDoctor() {
 
                                 <div className=" hidden absolute group-hover:block duration-500 bottom-4 left-4">
                                     <a href="#" >
-                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Dr. Indira Kendly</h5>
+                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">Dr. Indira Kendly</h5>
                                     </a>
                                     <p className="mb-3 font-normal text-white">Psychology Doctor</p>
                                     <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-blackText bg-white rounded-lg focus:ring-4 focus:outline-none">

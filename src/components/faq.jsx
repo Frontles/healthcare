@@ -1,5 +1,4 @@
 import React from 'react'
-import { BsArrowUpRight } from 'react-icons/bs';
 import Image1 from '@/../../public/assets/img/image2.jpg'
 import { Accordion } from '@mantine/core';
 import Image from 'next/image';

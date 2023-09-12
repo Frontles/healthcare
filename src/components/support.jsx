@@ -40,7 +40,7 @@ const Support = () => {
                     <p className='text-primary px-4 py-2 rounded-lg font-medium max-w-fit' style={{ backgroundColor: "#E6F4FD" }}>Feature</p>
                     <h2 className='text-xl md:text-3xl lg:text-6xl font-semibold text-blackText leading-tight'>Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
                     <p className='text-sm md:text-3xl text-linkdefault leading-normal'> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nam repellat distinctio quam sequi nesciunt tenetur quas ipsam doloribus pariatur.</p>
-                    <button className='bg-primary text-white text-sm md:text-lg px-6 py-3 rounded-lg font-medium'>Read More</button>
+                    <button className='bg-primary text-white text-sm md:text-lg px-6 py-3 rounded-lg font-medium duration-300 hover:bg-white hover:text-primary border border-primary'>Read More</button>
 
                 </div>
 
